@@ -1,6 +1,8 @@
 import React, { Fragment } from "react";
 import "./App.css";
 import Links from "./components/Links";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -10,6 +12,7 @@ function App() {
        
         <Links />
       </div>
+      <ToastContainer />
     </div>
   );
 }
