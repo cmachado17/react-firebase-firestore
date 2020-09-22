@@ -1,10 +1,14 @@
-import React from 'react';
-
-import './App.css';
+import React, { Fragment } from "react";
+import "./App.css";
+import Links from "./components/Links";
+import LinkForm from "./components/LinkForm";
 
 function App() {
   return (
-    <h1>Hello world</h1>
+    <Fragment>
+      <LinkForm />
+      <Links />
+    </Fragment>
   );
 }
 
